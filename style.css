@@ -84,8 +84,10 @@ body {
 }
 
 .about img {
-    height: 700px;
+    height: 500px;
     width: auto;
+    display: block; /* add this to ensure margin:auto works correctly */
+    margin: 0 auto; /* set left and right margins to auto */
 }
 
 .contact-hero-section {
@@ -253,7 +255,7 @@ footer {
     margin: 50px auto;
     max-width: 1000px;
     text-align: center;
-    font-size: 1.2em;
+    /*font-size: 1.2em;*/
 }
 
 .about h2 {
@@ -418,7 +420,7 @@ footer {
     }
 
     .about img {
-        height: 300px;
+        height: 275px;
         width: auto;
     }
 
