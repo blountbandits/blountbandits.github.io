@@ -83,10 +83,16 @@ body {
     position: relative;
 }
 
+.about img {
+    height: 700px;
+    width: auto;
+}
+
 .contact-hero-section {
     height: 400px;
     width: auto;
-    background-image: url('assets/contact_bg.jpeg');
+    /*background-image: url('assets/contact_bg.jpeg');*/
+    background-image: url('assets/about_bg.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -410,6 +416,12 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    .about img {
+        height: 300px;
+        width: auto;
+    }
+
 }
 
 
