@@ -90,6 +90,13 @@ body {
     margin: 0 auto; /* set left and right margins to auto */
 }
 
+.bandit-about-us-logo img {
+    height: 300px;
+    width: auto;
+    display: block; /* add this to ensure margin:auto works correctly */
+    margin: -50px auto -15px auto;
+}
+
 .contact-hero-section {
     height: 400px;
     width: auto;
@@ -422,6 +429,11 @@ footer {
 
     .about img {
         height: 275px;
+        width: auto;
+    }
+
+    .bandit-about-us-logo img {
+        height: 200px;
         width: auto;
     }
 
